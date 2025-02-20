@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belén Garbellano | Portfolio </title>
+
+    <!--Links-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Icon-->
+    <link rel="shortcut icon" href="./img/code.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!--HEADER-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">BG</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-7-line nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-user-line nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-settings-2-line nav__icon"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-briefcase-line nav__icon"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-mail-line nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+            </div>
+
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--HOME SECTION-->
+
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
+                <div class="home__social"><a href="https://www.instagram.com/belugarbellano/" target="_blank" class="home__social-icon">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://github.com/garbellanobelen" target="_blank" class="home__social-icon">
+                    <i class="ri-github-line"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/belengarbellano/" target="_blank" class="home__social-icon">
+                    <i class="ri-linkedin-line"></i>
+                </a>
+                </div>
+
+                <div class="home__img">
+                    <img src="./img/yo1.png" alt="">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Belén Garbellano</h1>
+                    <h2 class="home__subtitle">Frontend Developer</h2>
+                    <p class="home_description">I am looking for my first professional job to demonstrate my performance and quality of work.</p>
+                    <a href="#contact" class="button button-primary">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+
+    <section class="about section" id="about">
+        <h2 class="section__title">A little about me</h2>
+        
+
+        <div class="about__container container grid">
+            <img src="#" alt="" class="about__img">
+
+            <div class="about__data">
+                <p class="about__description">I am a web developer seeking my first professional job in the field. Although I don’t have direct work experience, I have gained skills in HTML, CSS, JavaScript, and other relevant technologies through personal projects and courses. I am highly motivated to learn and improve my abilities, and I am excited about the opportunity to contribute in a professional environment. I consider myself a dedicated, detail-oriented individual with a strong ability to work in teams, always eager to face new challenges and continue learning from experience.</p>
+
+                <div class="about__buttons">
+                    <a download="" href="./BG Resume.pdf" class="button button-primary">
+                        Download resume<i class="ri-download-line button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SERVICES SECTION-->
+
+    <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">The proposals I offer</span>
+
+        <div class="services__container container grid">
+            <!--SERVICE I-->
+            <div class="services__content">
+                <div>
+                    <i class="ri-sparkling-line services__icon"></i>
+                    <h3 class="services__title">UX/UI <br>Design</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+                    View more
+                    <i class="ri-arrow-right-line button__icon"></i>
+                </span>
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h4 class="services__modal-title">UX/UI <br>Design</h4>
+                        <i class="ri-close-line services__modal-close"></i>
+
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>User Research: Conduct interviews, surveys, and analysis to understand user needs and behaviors.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Visual Interface Design: Create attractive and functional interfaces, ensuring a seamless and consistent experience.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Interactive Prototyping: Develop interactive prototypes to test design ideas before implementation.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Mobile Optimization: Design responsive experiences tailored to various platforms and screen sizes.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--SERVICE II-->
+            <div class="services__content">
+                <div>
+                    <i class="ri-code-s-slash-line services__icon"></i>
+                    <h3 class="services__title">Frontend <br>Development</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+                    View more
+                    <i class="ri-arrow-right-line button__icon"></i>
+                </span>
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h4 class="services__modal-title">Frontend <br>Development</h4>
+                        <i class="ri-close-line services__modal-close"></i>
+
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Web Interface Development: Create interactive and responsive interfaces using technologies like HTML, CSS, and JavaScript.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Performance Optimization: Focus on improving the speed and efficiency of websites, ensuring fast load times.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Responsive Design: Develop adaptive websites that work seamlessly across mobile, tablet, and desktop devices.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Cross-browser Compatibility: Ensure that websites work consistently across different browsers, providing a seamless experience for all users.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--SERVICE III-->
+            <div class="services__content">
+                <div>
+                    <i class="ri-computer-line services__icon"></i>
+                    <h3 class="services__title">Web <br>Maintenance</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+                    View more
+                    <i class="ri-arrow-right-line button__icon"></i>
+                </span>
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h4 class="services__modal-title">Web <br>Maintenance</h4>
+                        <i class="ri-close-line services__modal-close"></i>
+
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Content Updates: Keep your website content up-to-date, including text, images, and videos, to ensure it stays relevant and engaging.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Performance Optimization: Improve site speed and overall performance, ensuring a fast and efficient user experience.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>Bug Fixing and Troubleshooting: Identify and resolve technical issues to ensure the site operates smoothly at all times.</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="ri-circle-line services__modal-icon"></i>
+                                <p>SEO Maintenance: Continuously monitor and update SEO strategies to improve search engine rankings and maintain visibility.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION-->
+
+    <section class="portfolio section" id="projects">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent proyects</span>
+
+        <div class="portfolio__container container mySwiper">
+            <div>
+                <!--Project 1-->
+                <div class="portfolio__content grid">
+                    <img src="./img/proyecto1.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Argentina Mágica</h3>
+                        <p class="portfolio__description">
+                            The website was created for the Introduction to Web Programming course at BA Multiplica. It simulates a travel agency specializing in Argentina, offering a tour through various destinations across the country.
+                            Some of the topics covered include: HTML, CSS, JavaScript, Git, Bootstrap, and more.</p>
+
+                        <a href="https://belengarbellano.github.io/ArgentinaMagica/" target="_blank" class="button button--flex button--small portfolio__button button-primary">
+                            Show demo
+                            <i class="ri-arrow-right-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Project 2-->
+                <div class="portfolio__content grid">
+                    <img src="./img/proyecto2.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Amor + puro</h3>
+                        <p class="portfolio__description">I designed a modern, fast, and fully optimized website for a small business, focused on handmade products.</p>
+
+                        <a href="https://garbellanobelen.github.io/WEBamorMasPuro/" target="_blank" class="button button--flex button--small portfolio__button button-primary">
+                            Show demo
+                            <i class="ri-arrow-right-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Project 3-->
+                <div class="portfolio__content grid">
+                    <img src="./img/proyecto3.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">To-do List</h3>
+                        <p class="portfolio__description">This to-do list was made as a practice of JavaScript.</p>
+
+                        <a href="https://belengarbellano.github.io/to-doList/" target="_blank" class="button button--flex button--small portfolio__button button-primary">
+                            Show demo
+                            <i class="ri-arrow-right-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Project 4-->
+                <div class="portfolio__content grid">
+                    <img src="./img/proyecto4.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Magical Mystery Music</h3>
+                        <p class="portfolio__description">This website was created for the Codo a Codo 4.0 web programming course.</p>
+
+                        <a href="https://garbellanobelen.github.io/proyectoCodoACodo/" target="_blank" class="button button--flex button--small portfolio__button button-primary">
+                            Show demo
+                            <i class="ri-arrow-right-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Get in touch</h2>
+        <span class="section__subtitle">Let's work together</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="ri-phone-line contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Call me</h3>
+                        <span class="contact__subtitle">+54 11-5124-4686</span>
+                    </div>
+                </div>
+                <div class="contact__information">
+                    <i class="ri-mail-line contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">My email</h3>
+                        <span class="contact__subtitle">belugarbellanowd@gmail.com</span>
+                    </div>
+                </div>
+                <div class="contact__information">
+                    <i class="ri-map-pin-line contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Buenos Aires - Argentina</span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="https://formsubmit.co/belugarbellanowd@gmail.com" method="post" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <input id="name" type="text" name="name" class="contact__input" placeholder="Name" required>
+                    </div>
+                    <div class="contact__content">
+
+                        <input id="email" name="email" type="email" class="contact__input" placeholder="Email" required>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+    
+                    <input  id="project" name="project" type="text" class="contact__input" placeholder="Project">
+                </div>
+                <div class="contact__content">
+    
+                    <textarea name="textarea" id="textarea" cols="0" rows="7" class="contact__input" placeholder="Message" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="button button-primary">Send 
+                        <i class="ri-send-plane-2-line button__icon"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h3 class="footer__title">BG Portfolio</h3>
+                </div>
+
+                <div class="footer__socials">
+                    <a href="https://facebook.com"  target="_blank" class="footer__social">
+                        <i class="ri-facebook-line"></i>
+                    </a>
+                    <a href="https://www.instagram.com/belugarbellano/"  target="_blank" class="footer__social">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://x.com/coderdiaries"  target="_blank" class="footer__social">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Develop with <i class="ri-heart-line"></i> by Belén Garbellano. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    
+
+   
+    
+
+    <!--LINK JS-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
